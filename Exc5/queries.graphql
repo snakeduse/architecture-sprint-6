@@ -1,0 +1,20 @@
+query GetClient {
+    client(id: "xxx") {
+        id
+        name
+        age
+    }
+}
+
+query GetDocuments {
+    documents(client: "xxx")
+}
+
+query GetRelatives {
+    relatives(client: "xxx") {
+        id
+        relationType
+        name
+        age
+    }
+}
