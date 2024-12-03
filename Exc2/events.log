@@ -1,0 +1,92 @@
+LAST SEEN   TYPE      REASON                              OBJECT                                     MESSAGE
+23m         Warning   PossibleMemoryBackedVolumesOnDisk   node/minikube                              The tmpfs noswap option is not supported. Memory-backed volumes (e.g. secrets, emptyDirs, etc.) might be swapped to disk and should no longer be considered secure.
+23m         Normal    Starting                            node/minikube                              Starting kubelet.
+23m         Warning   CgroupV1                            node/minikube                              Cgroup v1 support is in maintenance mode, please migrate to Cgroup v2.
+23m         Normal    NodeHasSufficientMemory             node/minikube                              Node minikube status is now: NodeHasSufficientMemory
+23m         Normal    NodeHasNoDiskPressure               node/minikube                              Node minikube status is now: NodeHasNoDiskPressure
+23m         Normal    NodeHasSufficientPID                node/minikube                              Node minikube status is now: NodeHasSufficientPID
+23m         Normal    NodeAllocatableEnforced             node/minikube                              Updated Node Allocatable limit across pods
+23m         Warning   PossibleMemoryBackedVolumesOnDisk   node/minikube                              The tmpfs noswap option is not supported. Memory-backed volumes (e.g. secrets, emptyDirs, etc.) might be swapped to disk and should no longer be considered secure.
+23m         Normal    Starting                            node/minikube                              Starting kubelet.
+23m         Warning   CgroupV1                            node/minikube                              Cgroup v1 support is in maintenance mode, please migrate to Cgroup v2.
+23m         Normal    NodeAllocatableEnforced             node/minikube                              Updated Node Allocatable limit across pods
+23m         Normal    NodeHasSufficientMemory             node/minikube                              Node minikube status is now: NodeHasSufficientMemory
+23m         Normal    NodeHasNoDiskPressure               node/minikube                              Node minikube status is now: NodeHasNoDiskPressure
+23m         Normal    NodeHasSufficientPID                node/minikube                              Node minikube status is now: NodeHasSufficientPID
+23m         Normal    RegisteredNode                      node/minikube                              Node minikube event: Registered Node minikube in Controller
+22m         Normal    Starting                            node/minikube                              
+4m43s       Normal    Scheduled                           pod/scaletestapp-85449f4676-2pgct          Successfully assigned default/scaletestapp-85449f4676-2pgct to minikube
+4m43s       Normal    Pulling                             pod/scaletestapp-85449f4676-2pgct          Pulling image "shestera/scaletestapp"
+4m40s       Normal    Pulled                              pod/scaletestapp-85449f4676-2pgct          Successfully pulled image "shestera/scaletestapp" in 1.308s (2.618s including waiting). Image size: 10812245 bytes.
+4m40s       Normal    Created                             pod/scaletestapp-85449f4676-2pgct          Created container scaletestapp
+4m40s       Normal    Started                             pod/scaletestapp-85449f4676-2pgct          Started container scaletestapp
+6m35s       Normal    Scheduled                           pod/scaletestapp-85449f4676-j29kr          Successfully assigned default/scaletestapp-85449f4676-j29kr to minikube
+6m35s       Normal    Pulling                             pod/scaletestapp-85449f4676-j29kr          Pulling image "shestera/scaletestapp"
+6m33s       Normal    Pulled                              pod/scaletestapp-85449f4676-j29kr          Successfully pulled image "shestera/scaletestapp" in 1.417s (1.417s including waiting). Image size: 10812245 bytes.
+6m33s       Normal    Created                             pod/scaletestapp-85449f4676-j29kr          Created container scaletestapp
+6m33s       Normal    Started                             pod/scaletestapp-85449f4676-j29kr          Started container scaletestapp
+3m47s       Normal    Scheduled                           pod/scaletestapp-85449f4676-l4frb          Successfully assigned default/scaletestapp-85449f4676-l4frb to minikube
+3m47s       Normal    Pulling                             pod/scaletestapp-85449f4676-l4frb          Pulling image "shestera/scaletestapp"
+3m45s       Normal    Pulled                              pod/scaletestapp-85449f4676-l4frb          Successfully pulled image "shestera/scaletestapp" in 1.286s (1.286s including waiting). Image size: 10812245 bytes.
+3m45s       Normal    Created                             pod/scaletestapp-85449f4676-l4frb          Created container scaletestapp
+3m45s       Normal    Started                             pod/scaletestapp-85449f4676-l4frb          Started container scaletestapp
+21m         Normal    Scheduled                           pod/scaletestapp-85449f4676-mwq4x          Successfully assigned default/scaletestapp-85449f4676-mwq4x to minikube
+21m         Normal    Pulling                             pod/scaletestapp-85449f4676-mwq4x          Pulling image "shestera/scaletestapp"
+21m         Normal    Pulled                              pod/scaletestapp-85449f4676-mwq4x          Successfully pulled image "shestera/scaletestapp" in 3.648s (3.648s including waiting). Image size: 10812245 bytes.
+21m         Normal    Created                             pod/scaletestapp-85449f4676-mwq4x          Created container scaletestapp
+21m         Normal    Started                             pod/scaletestapp-85449f4676-mwq4x          Started container scaletestapp
+12m         Normal    Scheduled                           pod/scaletestapp-85449f4676-nvtvg          Successfully assigned default/scaletestapp-85449f4676-nvtvg to minikube
+12m         Normal    Pulling                             pod/scaletestapp-85449f4676-nvtvg          Pulling image "shestera/scaletestapp"
+12m         Normal    Pulled                              pod/scaletestapp-85449f4676-nvtvg          Successfully pulled image "shestera/scaletestapp" in 1.336s (1.336s including waiting). Image size: 10812245 bytes.
+12m         Normal    Created                             pod/scaletestapp-85449f4676-nvtvg          Created container scaletestapp
+12m         Normal    Started                             pod/scaletestapp-85449f4676-nvtvg          Started container scaletestapp
+3m47s       Normal    Scheduled                           pod/scaletestapp-85449f4676-qdlr7          Successfully assigned default/scaletestapp-85449f4676-qdlr7 to minikube
+3m47s       Normal    Pulling                             pod/scaletestapp-85449f4676-qdlr7          Pulling image "shestera/scaletestapp"
+3m44s       Normal    Pulled                              pod/scaletestapp-85449f4676-qdlr7          Successfully pulled image "shestera/scaletestapp" in 1.312s (2.598s including waiting). Image size: 10812245 bytes.
+3m44s       Normal    Created                             pod/scaletestapp-85449f4676-qdlr7          Created container scaletestapp
+3m44s       Normal    Started                             pod/scaletestapp-85449f4676-qdlr7          Started container scaletestapp
+6m35s       Normal    Scheduled                           pod/scaletestapp-85449f4676-qv7lg          Successfully assigned default/scaletestapp-85449f4676-qv7lg to minikube
+6m35s       Normal    Pulling                             pod/scaletestapp-85449f4676-qv7lg          Pulling image "shestera/scaletestapp"
+6m32s       Normal    Pulled                              pod/scaletestapp-85449f4676-qv7lg          Successfully pulled image "shestera/scaletestapp" in 1.36s (2.731s including waiting). Image size: 10812245 bytes.
+6m32s       Normal    Created                             pod/scaletestapp-85449f4676-qv7lg          Created container scaletestapp
+6m32s       Normal    Started                             pod/scaletestapp-85449f4676-qv7lg          Started container scaletestapp
+8m28s       Normal    Scheduled                           pod/scaletestapp-85449f4676-tmkp7          Successfully assigned default/scaletestapp-85449f4676-tmkp7 to minikube
+8m27s       Normal    Pulling                             pod/scaletestapp-85449f4676-tmkp7          Pulling image "shestera/scaletestapp"
+8m25s       Normal    Pulled                              pod/scaletestapp-85449f4676-tmkp7          Successfully pulled image "shestera/scaletestapp" in 1.348s (1.348s including waiting). Image size: 10812245 bytes.
+8m25s       Normal    Created                             pod/scaletestapp-85449f4676-tmkp7          Created container scaletestapp
+8m25s       Normal    Started                             pod/scaletestapp-85449f4676-tmkp7          Started container scaletestapp
+10m         Normal    Scheduled                           pod/scaletestapp-85449f4676-whnjc          Successfully assigned default/scaletestapp-85449f4676-whnjc to minikube
+10m         Normal    Pulling                             pod/scaletestapp-85449f4676-whnjc          Pulling image "shestera/scaletestapp"
+10m         Normal    Pulled                              pod/scaletestapp-85449f4676-whnjc          Successfully pulled image "shestera/scaletestapp" in 1.298s (1.298s including waiting). Image size: 10812245 bytes.
+10m         Normal    Created                             pod/scaletestapp-85449f4676-whnjc          Created container scaletestapp
+10m         Normal    Started                             pod/scaletestapp-85449f4676-whnjc          Started container scaletestapp
+4m43s       Normal    Scheduled                           pod/scaletestapp-85449f4676-xtvrf          Successfully assigned default/scaletestapp-85449f4676-xtvrf to minikube
+4m43s       Normal    Pulling                             pod/scaletestapp-85449f4676-xtvrf          Pulling image "shestera/scaletestapp"
+4m41s       Normal    Pulled                              pod/scaletestapp-85449f4676-xtvrf          Successfully pulled image "shestera/scaletestapp" in 1.31s (1.31s including waiting). Image size: 10812245 bytes.
+4m41s       Normal    Created                             pod/scaletestapp-85449f4676-xtvrf          Created container scaletestapp
+4m41s       Normal    Started                             pod/scaletestapp-85449f4676-xtvrf          Started container scaletestapp
+21m         Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         Created pod: scaletestapp-85449f4676-mwq4x
+12m         Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         Created pod: scaletestapp-85449f4676-nvtvg
+10m         Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         Created pod: scaletestapp-85449f4676-whnjc
+8m28s       Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         Created pod: scaletestapp-85449f4676-tmkp7
+6m35s       Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         Created pod: scaletestapp-85449f4676-j29kr
+6m35s       Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         Created pod: scaletestapp-85449f4676-qv7lg
+4m43s       Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         Created pod: scaletestapp-85449f4676-2pgct
+4m43s       Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         Created pod: scaletestapp-85449f4676-xtvrf
+3m47s       Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         Created pod: scaletestapp-85449f4676-qdlr7
+3m47s       Normal    SuccessfulCreate                    replicaset/scaletestapp-85449f4676         (combined from similar events): Created pod: scaletestapp-85449f4676-l4frb
+20m         Warning   FailedGetResourceMetric             horizontalpodautoscaler/scaletestapp-hpa   failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+20m         Warning   FailedComputeMetricsReplicas        horizontalpodautoscaler/scaletestapp-hpa   invalid metrics (1 invalid out of 1), first error is: failed to get memory resource metric value: failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+12m         Normal    SuccessfulRescale                   horizontalpodautoscaler/scaletestapp-hpa   New size: 2; reason: memory resource utilization (percentage of request) above target
+10m         Normal    SuccessfulRescale                   horizontalpodautoscaler/scaletestapp-hpa   New size: 3; reason: memory resource utilization (percentage of request) above target
+8m28s       Normal    SuccessfulRescale                   horizontalpodautoscaler/scaletestapp-hpa   New size: 4; reason: memory resource utilization (percentage of request) above target
+6m35s       Normal    SuccessfulRescale                   horizontalpodautoscaler/scaletestapp-hpa   New size: 6; reason: memory resource utilization (percentage of request) above target
+4m43s       Normal    SuccessfulRescale                   horizontalpodautoscaler/scaletestapp-hpa   New size: 8; reason: memory resource utilization (percentage of request) above target
+3m47s       Normal    SuccessfulRescale                   horizontalpodautoscaler/scaletestapp-hpa   New size: 10; reason: memory resource utilization (percentage of request) above target
+21m         Normal    ScalingReplicaSet                   deployment/scaletestapp                    Scaled up replica set scaletestapp-85449f4676 to 1
+12m         Normal    ScalingReplicaSet                   deployment/scaletestapp                    Scaled up replica set scaletestapp-85449f4676 to 2 from 1
+10m         Normal    ScalingReplicaSet                   deployment/scaletestapp                    Scaled up replica set scaletestapp-85449f4676 to 3 from 2
+8m28s       Normal    ScalingReplicaSet                   deployment/scaletestapp                    Scaled up replica set scaletestapp-85449f4676 to 4 from 3
+6m35s       Normal    ScalingReplicaSet                   deployment/scaletestapp                    Scaled up replica set scaletestapp-85449f4676 to 6 from 4
+4m43s       Normal    ScalingReplicaSet                   deployment/scaletestapp                    Scaled up replica set scaletestapp-85449f4676 to 8 from 6
+3m47s       Normal    ScalingReplicaSet                   deployment/scaletestapp                    Scaled up replica set scaletestapp-85449f4676 to 10 from 8
